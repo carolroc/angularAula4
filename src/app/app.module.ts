@@ -19,7 +19,7 @@ import { NumbersComponent } from './numbers/numbers.component';
       { path: 'numbers', component: NumbersComponent },
     ]), //configura as rotas a partir da raiz
   ],
-  declarations: [AppComponent, HelloComponent],
+  declarations: [AppComponent, HelloComponent, HomeComponent, AboutComponent,NumbersComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
