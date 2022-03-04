@@ -1,0 +1,13 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<h1>meu app</h1>
+
+<a [routerLink]="['/']">HOME</a> |  <!-- coloca angular no lugar do link, vai ser a pasta -->
+<a [routerLink]="['/about']">ABOUT</a> |
+<a [routerLink]="['/numbers']">NUMBERS</a>
+
+<hr />
+<router-outlet></router-outlet> <!-- apresenta o componente x que vai na navegação (home ou outra coisa)-->
+<!-- serve para não dar reload na página -->
+
